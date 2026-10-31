@@ -1,0 +1,32 @@
+# Secrets
+firmware/foot_node/secrets.h
+.env*
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+env/
+
+# Runtime data
+logs/
+analysis/
+calibration.json
+
+# Build artifacts
+build/
+*.bin
+*.hex
+*.elf
+*.o
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
